@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F90C55A1CE86BC400BD5B88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F90C5591CE86BC400BD5B88 /* main.m */; };
+		5F90C55D1CE86BC400BD5B88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F90C55C1CE86BC400BD5B88 /* AppDelegate.m */; };
+		5F90C5601CE86BC400BD5B88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F90C55F1CE86BC400BD5B88 /* ViewController.m */; };
+		5F90C5631CE86BC400BD5B88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F90C5611CE86BC400BD5B88 /* Main.storyboard */; };
+		5F90C5651CE86BC400BD5B88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F90C5641CE86BC400BD5B88 /* Assets.xcassets */; };
+		5F90C5681CE86BC400BD5B88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F90C5661CE86BC400BD5B88 /* LaunchScreen.storyboard */; };
+		5F90C5731CE86BC400BD5B88 /* TouchWaveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F90C5721CE86BC400BD5B88 /* TouchWaveTests.m */; };
+		5F90C57E1CE86BC400BD5B88 /* TouchWaveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F90C57D1CE86BC400BD5B88 /* TouchWaveUITests.m */; };
+		5F90C58F1CE86BF400BD5B88 /* UIView+Wave.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F90C58E1CE86BF400BD5B88 /* UIView+Wave.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F90C56F1CE86BC400BD5B88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F90C54D1CE86BC400BD5B88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F90C5541CE86BC400BD5B88;
+			remoteInfo = TouchWave;
+		};
+		5F90C57A1CE86BC400BD5B88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F90C54D1CE86BC400BD5B88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F90C5541CE86BC400BD5B88;
+			remoteInfo = TouchWave;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F90C5551CE86BC400BD5B88 /* TouchWave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchWave.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F90C5591CE86BC400BD5B88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F90C55B1CE86BC400BD5B88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F90C55C1CE86BC400BD5B88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F90C55E1CE86BC400BD5B88 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5F90C55F1CE86BC400BD5B88 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5F90C5621CE86BC400BD5B88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F90C5641CE86BC400BD5B88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F90C5671CE86BC400BD5B88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F90C5691CE86BC400BD5B88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F90C56E1CE86BC400BD5B88 /* TouchWaveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchWaveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F90C5721CE86BC400BD5B88 /* TouchWaveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchWaveTests.m; sourceTree = "<group>"; };
+		5F90C5741CE86BC400BD5B88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F90C5791CE86BC400BD5B88 /* TouchWaveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchWaveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F90C57D1CE86BC400BD5B88 /* TouchWaveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchWaveUITests.m; sourceTree = "<group>"; };
+		5F90C57F1CE86BC400BD5B88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F90C58D1CE86BF400BD5B88 /* UIView+Wave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Wave.h"; path = "Library/UIVIew+Wave/UIView+Wave.h"; sourceTree = "<group>"; };
+		5F90C58E1CE86BF400BD5B88 /* UIView+Wave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Wave.m"; path = "Library/UIVIew+Wave/UIView+Wave.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F90C5521CE86BC400BD5B88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F90C56B1CE86BC400BD5B88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F90C5761CE86BC400BD5B88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F90C54C1CE86BC400BD5B88 = {
+			isa = PBXGroup;
+			children = (
+				5F90C58B1CE86BE100BD5B88 /* Library */,
+				5F90C5571CE86BC400BD5B88 /* TouchWave */,
+				5F90C5711CE86BC400BD5B88 /* TouchWaveTests */,
+				5F90C57C1CE86BC400BD5B88 /* TouchWaveUITests */,
+				5F90C5561CE86BC400BD5B88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F90C5561CE86BC400BD5B88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F90C5551CE86BC400BD5B88 /* TouchWave.app */,
+				5F90C56E1CE86BC400BD5B88 /* TouchWaveTests.xctest */,
+				5F90C5791CE86BC400BD5B88 /* TouchWaveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F90C5571CE86BC400BD5B88 /* TouchWave */ = {
+			isa = PBXGroup;
+			children = (
+				5F90C55B1CE86BC400BD5B88 /* AppDelegate.h */,
+				5F90C55C1CE86BC400BD5B88 /* AppDelegate.m */,
+				5F90C55E1CE86BC400BD5B88 /* ViewController.h */,
+				5F90C55F1CE86BC400BD5B88 /* ViewController.m */,
+				5F90C5611CE86BC400BD5B88 /* Main.storyboard */,
+				5F90C5641CE86BC400BD5B88 /* Assets.xcassets */,
+				5F90C5661CE86BC400BD5B88 /* LaunchScreen.storyboard */,
+				5F90C5691CE86BC400BD5B88 /* Info.plist */,
+				5F90C5581CE86BC400BD5B88 /* Supporting Files */,
+			);
+			path = TouchWave;
+			sourceTree = "<group>";
+		};
+		5F90C5581CE86BC400BD5B88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F90C5591CE86BC400BD5B88 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F90C5711CE86BC400BD5B88 /* TouchWaveTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F90C5721CE86BC400BD5B88 /* TouchWaveTests.m */,
+				5F90C5741CE86BC400BD5B88 /* Info.plist */,
+			);
+			path = TouchWaveTests;
+			sourceTree = "<group>";
+		};
+		5F90C57C1CE86BC400BD5B88 /* TouchWaveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F90C57D1CE86BC400BD5B88 /* TouchWaveUITests.m */,
+				5F90C57F1CE86BC400BD5B88 /* Info.plist */,
+			);
+			path = TouchWaveUITests;
+			sourceTree = "<group>";
+		};
+		5F90C58B1CE86BE100BD5B88 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				5F90C58C1CE86BEE00BD5B88 /* UIVIew+Wave */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		5F90C58C1CE86BEE00BD5B88 /* UIVIew+Wave */ = {
+			isa = PBXGroup;
+			children = (
+				5F90C58D1CE86BF400BD5B88 /* UIView+Wave.h */,
+				5F90C58E1CE86BF400BD5B88 /* UIView+Wave.m */,
+			);
+			name = "UIVIew+Wave";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F90C5541CE86BC400BD5B88 /* TouchWave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F90C5821CE86BC400BD5B88 /* Build configuration list for PBXNativeTarget "TouchWave" */;
+			buildPhases = (
+				5F90C5511CE86BC400BD5B88 /* Sources */,
+				5F90C5521CE86BC400BD5B88 /* Frameworks */,
+				5F90C5531CE86BC400BD5B88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchWave;
+			productName = TouchWave;
+			productReference = 5F90C5551CE86BC400BD5B88 /* TouchWave.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F90C56D1CE86BC400BD5B88 /* TouchWaveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F90C5851CE86BC400BD5B88 /* Build configuration list for PBXNativeTarget "TouchWaveTests" */;
+			buildPhases = (
+				5F90C56A1CE86BC400BD5B88 /* Sources */,
+				5F90C56B1CE86BC400BD5B88 /* Frameworks */,
+				5F90C56C1CE86BC400BD5B88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F90C5701CE86BC400BD5B88 /* PBXTargetDependency */,
+			);
+			name = TouchWaveTests;
+			productName = TouchWaveTests;
+			productReference = 5F90C56E1CE86BC400BD5B88 /* TouchWaveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F90C5781CE86BC400BD5B88 /* TouchWaveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F90C5881CE86BC400BD5B88 /* Build configuration list for PBXNativeTarget "TouchWaveUITests" */;
+			buildPhases = (
+				5F90C5751CE86BC400BD5B88 /* Sources */,
+				5F90C5761CE86BC400BD5B88 /* Frameworks */,
+				5F90C5771CE86BC400BD5B88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F90C57B1CE86BC400BD5B88 /* PBXTargetDependency */,
+			);
+			name = TouchWaveUITests;
+			productName = TouchWaveUITests;
+			productReference = 5F90C5791CE86BC400BD5B88 /* TouchWaveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F90C54D1CE86BC400BD5B88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Pablo Alejandro";
+				TargetAttributes = {
+					5F90C5541CE86BC400BD5B88 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					5F90C56D1CE86BC400BD5B88 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5F90C5541CE86BC400BD5B88;
+					};
+					5F90C5781CE86BC400BD5B88 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5F90C5541CE86BC400BD5B88;
+					};
+				};
+			};
+			buildConfigurationList = 5F90C5501CE86BC400BD5B88 /* Build configuration list for PBXProject "TouchWave" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F90C54C1CE86BC400BD5B88;
+			productRefGroup = 5F90C5561CE86BC400BD5B88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F90C5541CE86BC400BD5B88 /* TouchWave */,
+				5F90C56D1CE86BC400BD5B88 /* TouchWaveTests */,
+				5F90C5781CE86BC400BD5B88 /* TouchWaveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F90C5531CE86BC400BD5B88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F90C5681CE86BC400BD5B88 /* LaunchScreen.storyboard in Resources */,
+				5F90C5651CE86BC400BD5B88 /* Assets.xcassets in Resources */,
+				5F90C5631CE86BC400BD5B88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F90C56C1CE86BC400BD5B88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F90C5771CE86BC400BD5B88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F90C5511CE86BC400BD5B88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F90C5601CE86BC400BD5B88 /* ViewController.m in Sources */,
+				5F90C55D1CE86BC400BD5B88 /* AppDelegate.m in Sources */,
+				5F90C55A1CE86BC400BD5B88 /* main.m in Sources */,
+				5F90C58F1CE86BF400BD5B88 /* UIView+Wave.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F90C56A1CE86BC400BD5B88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F90C5731CE86BC400BD5B88 /* TouchWaveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F90C5751CE86BC400BD5B88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F90C57E1CE86BC400BD5B88 /* TouchWaveUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F90C5701CE86BC400BD5B88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F90C5541CE86BC400BD5B88 /* TouchWave */;
+			targetProxy = 5F90C56F1CE86BC400BD5B88 /* PBXContainerItemProxy */;
+		};
+		5F90C57B1CE86BC400BD5B88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F90C5541CE86BC400BD5B88 /* TouchWave */;
+			targetProxy = 5F90C57A1CE86BC400BD5B88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F90C5611CE86BC400BD5B88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F90C5621CE86BC400BD5B88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F90C5661CE86BC400BD5B88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F90C5671CE86BC400BD5B88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F90C5801CE86BC400BD5B88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F90C5811CE86BC400BD5B88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F90C5831CE86BC400BD5B88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TouchWave/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pabloalejandro.TouchWave;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5F90C5841CE86BC400BD5B88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TouchWave/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pabloalejandro.TouchWave;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5F90C5861CE86BC400BD5B88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TouchWaveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pabloalejandro.TouchWaveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchWave.app/TouchWave";
+			};
+			name = Debug;
+		};
+		5F90C5871CE86BC400BD5B88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TouchWaveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pabloalejandro.TouchWaveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchWave.app/TouchWave";
+			};
+			name = Release;
+		};
+		5F90C5891CE86BC400BD5B88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TouchWaveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pabloalejandro.TouchWaveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TouchWave;
+			};
+			name = Debug;
+		};
+		5F90C58A1CE86BC400BD5B88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TouchWaveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pabloalejandro.TouchWaveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TouchWave;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F90C5501CE86BC400BD5B88 /* Build configuration list for PBXProject "TouchWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F90C5801CE86BC400BD5B88 /* Debug */,
+				5F90C5811CE86BC400BD5B88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F90C5821CE86BC400BD5B88 /* Build configuration list for PBXNativeTarget "TouchWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F90C5831CE86BC400BD5B88 /* Debug */,
+				5F90C5841CE86BC400BD5B88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F90C5851CE86BC400BD5B88 /* Build configuration list for PBXNativeTarget "TouchWaveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F90C5861CE86BC400BD5B88 /* Debug */,
+				5F90C5871CE86BC400BD5B88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F90C5881CE86BC400BD5B88 /* Build configuration list for PBXNativeTarget "TouchWaveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F90C5891CE86BC400BD5B88 /* Debug */,
+				5F90C58A1CE86BC400BD5B88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F90C54D1CE86BC400BD5B88 /* Project object */;
+}
